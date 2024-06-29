@@ -29,9 +29,9 @@
 
 /* Основні стилі для body */
 body {
-    background-image: url('images/background-light.png'); /* Світліший фон */
-    background-color: #f0f0f0; /* Світлий фон */
-    color: #121212; /* Темний текст */
+    background-image: url('images/background-light.png'); 
+    background-color: #f0f0f0; 
+    color: #121212; 
     font-family: 'Courier New', Courier, monospace;
     height: 100%;
     width: 100%;
@@ -39,7 +39,6 @@ body {
     padding: 20px;
 }
 
-/* Скидання фону для всіх елементів */
 * {
     background-color: #00000000;
 }
@@ -63,7 +62,7 @@ header div {
 }
 
 header .with-border {
-    border-right: 1px solid #ff0000; /* Червона лінія */
+    border-right: 1px solid #ff0000; 
 }
 
 header p {
@@ -72,7 +71,7 @@ header p {
     margin-bottom: 0;
     font-size: 20px;
     cursor: pointer;
-    color: #121212; /* Темний текст */
+    color: #121212; 
 }
 
 header .button {
@@ -88,7 +87,7 @@ header .button {
 }
 
 header .buttontext {
-    background-color: #ff0000; /* Червоний фон */
+    background-color: #ff0000; 
     height: 40px;
     width: 100px;
     border-radius: 30px;
@@ -111,7 +110,7 @@ header img:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid #ff0000; /* Червона лінія */
+    border-top: 2px solid #ff0000; 
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -124,11 +123,11 @@ footer {
 .footer-column p {
     margin: 5px 0;
     text-align: center;
-    color: #121212; /* Темний текст */
+    color: #121212; 
 }
 
 footer a[href^="/"] {
-    color: #ff0000; /* Червоні посилання */
+    color: #ff0000; 
 }
 
 
@@ -141,7 +140,7 @@ footer a[href^="/"] {
     flex-direction: column;
     margin: 5px 0;
     text-align: center;
-    color: #121212; /* Темний текст */
+    color: #121212; 
     margin-top: 25px; 
 }
 
@@ -155,12 +154,12 @@ main {
 
 .bestchoice {
     font-family: 'KyivTypeSerif-Medium';
-    color: #ff0000; /* Червоний текст */
+    color: #ff0000; 
     font-size: 21px;
 }
 
 .highlight {
-    color: #ff0000; /* Червоний текст */
+    color: #ff0000; 
 }
 
 .intro {
@@ -181,7 +180,7 @@ main {
 .intro .name {
     font-size: 140px;
     font-family: 'KyivTypeTitling';
-    color: #ff0000; /* Червоний текст */
+    color: #ff0000; 
 }
 
 .title {
@@ -200,7 +199,7 @@ main {
 .title p {
     margin: 0;
     text-align: left;
-    color: #121212; /* Темний текст */
+    color: #121212;
 }
 
 .titletext {
@@ -223,9 +222,9 @@ main {
     width: 600px;
     font-size: 20px;
     border-radius: 20px;
-    border: 2px solid #ff0000; /* Червона рамка */
-    background-color: #e0e0e0; /* Світліший фон */
-    color: #121212; /* Темний текст */
+    border: 2px solid #ff0000; 
+    background-color: #e0e0e0; 
+    color: #121212; 
 }
 
 .search-button {
@@ -234,7 +233,7 @@ main {
     margin: 5px;
     border-radius: 20px;
     border: none;
-    background-color: #ff0000; /* Червоний фон */
+    background-color: #ff0000; 
     font-size: 14px;
     color: white;
     cursor: pointer;
@@ -242,16 +241,16 @@ main {
 }
 
 .search-button:hover {
-    background-color: #cc0000; /* Темніший червоний при наведенні */
+    background-color: #cc0000; 
 }
 
 .filter-select {
     margin: 10px;
     border-radius: 20px;
-    border: 2px solid #ff0000; /* Червона рамка */
+    border: 2px solid #ff0000;
     font-size: 16px;
-    background-color: #e0e0e0; /* Світліший фон */
-    color: #121212; /* Темний текст */
+    background-color: #e0e0e0;
+    color: #121212;
 }
 
 .search-input,
@@ -267,7 +266,7 @@ h3 {
     text-align: center;
     margin: 0;
     padding-top: 10px;
-    color: #121212; /* Темний текст */
+    color: #121212;
 }
 
 a {
@@ -289,12 +288,12 @@ a {
     box-sizing: border-box;
     float: left;
     text-align: center;
-    border: 2px solid #ff0000; /* Червона рамка */
+    border: 2px solid #ff0000; 
     border-radius: 10px;
     cursor: pointer;
     padding-top: 10px;
-    background-color: #ffffff; /* Білий фон */
-    color: #121212; /* Темний текст */
+    background-color: #ffffff; 
+    color: #121212;
 }
 
 .content:hover {
@@ -314,14 +313,14 @@ img {
 
 p {
     text-align: center;
-    color: #121212; /* Темний текст */
+    color: #121212; 
     padding-top: 8px;
 }
 
 h6 {
     font-size: 26px;
     text-align: center;
-    color: #ff0000; /* Червоний текст */
+    color: #ff0000; 
     margin: 0;
 }
 
@@ -337,5 +336,5 @@ button {
     margin-top: 5px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color: #ff0000; /* Червоний фон */
+    background-color: #ff0000; 
 }
