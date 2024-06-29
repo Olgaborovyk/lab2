@@ -1,0 +1,341 @@
+/* Шрифти */
+@font-face {
+    font-family: 'Italiana-Regular';
+    src: url('fonts/Italiana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KyivTypeSerif-Medium';
+    src: url('fonts/KyivTypeSerif-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KyivTypeSerif-Regular';
+    src: url('fonts/KyivTypeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KyivTypeTitling';
+    src: url('fonts/KyivTypeTitling-Bold3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Основні стилі для body */
+body {
+    background-image: url('images/background-light.png'); /* Світліший фон */
+    background-color: #f0f0f0; /* Світлий фон */
+    color: #121212; /* Темний текст */
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Скидання фону для всіх елементів */
+* {
+    background-color: #00000000;
+}
+
+/* Стилі для header */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border-bottom: 2px solid #ff0000; /* Червона лінія */
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+header div {
+    margin: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .with-border {
+    border-right: 1px solid #ff0000; /* Червона лінія */
+}
+
+header p {
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    cursor: pointer;
+    color: #121212; /* Темний текст */
+}
+
+header .button {
+    display: inline-flex;
+    margin-left: auto;
+    width: 200px;
+}
+
+.cart-icon {
+    margin-right: 5px;
+    width: 35%;
+    height: auto;
+}
+
+header .buttontext {
+    background-color: #ff0000; /* Червоний фон */
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+header .buttontext:hover {
+    transform: translateY(-5px);
+}
+
+header img:hover {
+    transform: translateY(-5px);
+}
+
+/* Стилі для footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ff0000; /* Червона лінія */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    text-align: center;
+    color: #121212; /* Темний текст */
+}
+
+footer a[href^="/"] {
+    color: #ff0000; /* Червоні посилання */
+}
+
+
+.footer-column a {
+    text-decoration: none;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    text-align: center;
+    color: #121212; /* Темний текст */
+    margin-top: 25px; 
+}
+
+/* Стилі для main */
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bestchoice {
+    font-family: 'KyivTypeSerif-Medium';
+    color: #ff0000; /* Червоний текст */
+    font-size: 21px;
+}
+
+.highlight {
+    color: #ff0000; /* Червоний текст */
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.intro img {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.intro .name {
+    font-size: 140px;
+    font-family: 'KyivTypeTitling';
+    color: #ff0000; /* Червоний текст */
+}
+
+.title {
+    height: auto;
+    width: fit-content;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.title p {
+    margin: 0;
+    text-align: left;
+    color: #121212; /* Темний текст */
+}
+
+.titletext {
+    font-family: 'KyivTypeSerif-Regular';
+    width: 60%;
+}
+
+/* Стилі для поля пошуку */
+.search-field {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-input {
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid #ff0000; /* Червона рамка */
+    background-color: #e0e0e0; /* Світліший фон */
+    color: #121212; /* Темний текст */
+}
+
+.search-button {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff0000; /* Червоний фон */
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #cc0000; /* Темніший червоний при наведенні */
+}
+
+.filter-select {
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #ff0000; /* Червона рамка */
+    font-size: 16px;
+    background-color: #e0e0e0; /* Світліший фон */
+    color: #121212; /* Темний текст */
+}
+
+.search-input,
+.filter-select,
+.search-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Стилі для каталогу */
+h3 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    color: #121212; /* Темний текст */
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content {
+    width: 25%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border: 2px solid #ff0000; /* Червона рамка */
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 10px;
+    background-color: #ffffff; /* Білий фон */
+    color: #121212; /* Темний текст */
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+                0 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translate(0px, -8px);
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    color: #121212; /* Темний текст */
+    padding-top: 8px;
+}
+
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #ff0000; /* Червоний текст */
+    margin: 0;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ff0000; /* Червоний фон */
+}
